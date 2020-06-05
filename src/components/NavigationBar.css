@@ -1,0 +1,7 @@
+.sticky-push {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: white;
+  display: inline-block;
+  border-radius: 5px;
+}
