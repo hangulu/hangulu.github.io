@@ -24,7 +24,8 @@ export default function Projects() {
           <p>
             <a href="https://github.com/hangulu/dvm" target="_blank" rel="noopener noreferrer">https://github.com/hangulu/dvm</a>
           </p>
-          <p>The Discrete Voter Model is a method of ecological inference that grew out of my <a href="https://github.com/hangulu/thesis" target="_blank" rel="noopener noreferrer">undergraduate senior thesis</a> for the departments of Computer Science and Statistics at Harvard College.</p>
+          <p>The Discrete Voter Model is a method of ecological inference that grew out of my <a href="https://github.com/hangulu/thesis" target="_blank" rel="noopener noreferrer">undergraduate senior thesis</a> for the departments of Computer Science and Statistics at Harvard College. It can be found on PyPI <a href="https://pypi.org/project/dvm/" target="_blank" rel="noopener noreferrer">here</a>.
+          </p>
           <Image
             src={dvmExample}
             size='big'

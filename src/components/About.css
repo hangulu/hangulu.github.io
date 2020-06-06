@@ -2,15 +2,15 @@
   min-height: 85vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   font-size: 1.25rem;
 }
 
-.center-mobile {
+.about-center-mobile {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   font-size: 1.25rem;
 }

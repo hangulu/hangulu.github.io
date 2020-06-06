@@ -8,7 +8,7 @@ export default function Film() {
   return (
     <Fragment>
       <Container text>
-        <div className="photo-center">
+        <div className="film-center">
           <Header as='h1'>
             film
           </Header>

@@ -37,6 +37,12 @@ export default function NavigationBar() {
                 to='/film'
                 active={location.pathname === '/film'}
               />
+              <Menu.Item
+                as={Link}
+                name='contact'
+                to='/contact'
+                active={location.pathname === '/contact'}
+              />
             </Menu>
           </div>
         </Sticky>

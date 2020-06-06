@@ -4,6 +4,7 @@ import { Grid } from 'semantic-ui-react';
 
 import Sidebar from './Sidebar.js';
 import About from './About.js';
+import Contact from './Contact.js';
 import Projects from './Projects.js';
 import Photography from './Photography.js';
 import Film from './Film.js';
@@ -25,6 +26,9 @@ function Pages({ mobile }) {
         </Route>
         <Route exact path="/film">
           <Film />
+        </Route>
+        <Route exact path="/contact">
+          <Contact mobile={mobile}/>
         </Route>
       </Switch>
     </Fragment>
