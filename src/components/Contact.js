@@ -33,8 +33,20 @@ export default function Contact({ mobile }) {
 
   const handleSubmit = () => {
     setFormSuccess(true);
-    fetch('https://hooks.zapier.com/hooks/catch/7736857/os5pxom', {
+    // send email
+    fetch('https://wh.automate.io/webhook/5eeee4f924af350f5a21496a', {
       method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body:JSON.stringify(formValues)
+    });
+    // record in spreadsheet
+    fetch('https://wh.automate.io/webhook/5eeee6a624af350f5a214980', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
       body:JSON.stringify(formValues)
     });
   }
