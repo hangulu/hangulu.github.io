@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Route, Switch } from "react-router-dom";
+import { Redirect, Route, Switch } from "react-router-dom";
 import { Grid } from "semantic-ui-react";
 import About from "./About.js";
 import Art from "./Art.js";
@@ -24,6 +24,9 @@ function Pages({ mobile }) {
         </Route>
         <Route exact path="/contact">
           <Contact mobile={mobile} />
+        </Route>
+        <Route>
+          <Redirect to="/" />
         </Route>
       </Switch>
     </Fragment>
