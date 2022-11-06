@@ -1,52 +1,51 @@
-import React from 'react'
-import { Grid, Menu, Sticky } from 'semantic-ui-react'
-import { Link, useLocation } from 'react-router-dom';
-
-import './NavigationBar.css'
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
+import { Grid, Menu, Sticky } from "semantic-ui-react";
+import "./NavigationBar.css";
 
 export default function NavigationBar() {
   const location = useLocation();
 
   return (
     <Grid>
-      <Grid.Column textAlign='center'>
+      <Grid.Column textAlign="center">
         <Sticky>
-          <div className='sticky-push'>
+          <div className="sticky-push">
             <Menu compact pointing secondary>
               <Menu.Item
                 as={Link}
-                name='about'
-                to='/'
-                active={location.pathname === '/'}
+                name="about"
+                to="/"
+                active={location.pathname === "/"}
               />
               <Menu.Item
                 as={Link}
-                name='projects'
-                to='/projects'
-                active={location.pathname === '/projects'}
+                name="projects"
+                to="/projects"
+                active={location.pathname === "/projects"}
               />
               <Menu.Item
                 as={Link}
-                name='photography'
-                to='/photo'
-                active={location.pathname === '/photo'}
+                name="photography"
+                to="/photo"
+                active={location.pathname === "/photo"}
               />
               <Menu.Item
                 as={Link}
-                name='film'
-                to='/film'
-                active={location.pathname === '/film'}
+                name="film"
+                to="/film"
+                active={location.pathname === "/film"}
               />
               <Menu.Item
                 as={Link}
-                name='contact'
-                to='/contact'
-                active={location.pathname === '/contact'}
+                name="contact"
+                to="/contact"
+                active={location.pathname === "/contact"}
               />
             </Menu>
           </div>
         </Sticky>
       </Grid.Column>
     </Grid>
-  )
+  );
 }
