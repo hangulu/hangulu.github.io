@@ -22,17 +22,8 @@ export default function Sidebar({ mobile }) {
             </Container>
           </Header>
           <Header as="h4" textAlign="center">
-            software engineer and photographer
+            software engineer and artist
           </Header>
-          <Container textAlign="center" className="social">
-            <a
-              href="https://github.com/hangulu"
-              target="_blank"
-              rel="noopener noreferrer">
-              GitHub
-            </a>
-          </Container>
-          <br />
           <Container textAlign="center" className="social">
             <a
               href="https://www.linkedin.com/in/hangulu/"
@@ -44,10 +35,10 @@ export default function Sidebar({ mobile }) {
           <br />
           <Container textAlign="center" className="social">
             <a
-              href="https://medium.com/@hakeemangulu"
+              href="https://github.com/hangulu"
               target="_blank"
               rel="noopener noreferrer">
-              Medium
+              GitHub
             </a>
           </Container>
           <br />

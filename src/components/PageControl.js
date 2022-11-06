@@ -2,12 +2,11 @@ import React, { Fragment } from "react";
 import { Route, Switch } from "react-router-dom";
 import { Grid } from "semantic-ui-react";
 import About from "./About.js";
+import Art from "./Art.js";
 import Contact from "./Contact.js";
-import Film from "./Film.js";
 import NavigationBar from "./NavigationBar.js";
-import Photography from "./Photography.js";
-import Projects from "./Projects.js";
 import Sidebar from "./Sidebar.js";
+import Software from "./Software.js";
 
 function Pages({ mobile }) {
   return (
@@ -17,14 +16,11 @@ function Pages({ mobile }) {
         <Route exact path="/">
           <About mobile={mobile} />
         </Route>
-        <Route exact path="/projects">
-          <Projects />
+        <Route exact path="/software">
+          <Software />
         </Route>
-        <Route exact path="/photo">
-          <Photography />
-        </Route>
-        <Route exact path="/film">
-          <Film />
+        <Route exact path="/art">
+          <Art />
         </Route>
         <Route exact path="/contact">
           <Contact mobile={mobile} />

@@ -26,7 +26,7 @@ export default function About({ mobile }) {
               href="https://io.google/2022/program/d7b6d22e-59a4-4e6b-a49d-3116ee57dcc3/"
               target="_blank"
               rel="noopener noreferrer">
-              Counter-Abuse Technology team{" "}
+              Counter-Abuse Technology team
             </a>
             , within the Privacy, Safety and Security organization.
           </p>

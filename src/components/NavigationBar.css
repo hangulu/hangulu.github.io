@@ -5,3 +5,7 @@
   display: inline-block;
   border-radius: 5px;
 }
+
+.ui.button {
+  text-transform: initial;
+}

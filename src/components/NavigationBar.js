@@ -14,31 +14,25 @@ export default function NavigationBar() {
             <Menu compact pointing secondary>
               <Menu.Item
                 as={Link}
-                name="about"
+                content="about"
                 to="/"
                 active={location.pathname === "/"}
               />
               <Menu.Item
                 as={Link}
-                name="projects"
-                to="/projects"
-                active={location.pathname === "/projects"}
+                content="software"
+                to="/software"
+                active={location.pathname === "/software"}
               />
               <Menu.Item
                 as={Link}
-                name="photography"
-                to="/photo"
-                active={location.pathname === "/photo"}
+                content="art"
+                to="/art"
+                active={location.pathname === "/art"}
               />
               <Menu.Item
                 as={Link}
-                name="film"
-                to="/film"
-                active={location.pathname === "/film"}
-              />
-              <Menu.Item
-                as={Link}
-                name="contact"
+                content="contact"
                 to="/contact"
                 active={location.pathname === "/contact"}
               />
