@@ -18,17 +18,17 @@ export default function About({ mobile }) {
             2014 to finish my education. I am currently based in Brooklyn, NY.
           </p>
           <p>
-            In May 2020, I graduated from Harvard College with a Bachelor of
-            Arts degree in Computer Science and Statistics, and a secondary
-            field of African American Studies. I am now a Software Engineer III
-            at Google, on their{" "}
+            I am a Software Engineer III at Google, in the{" "}
             <a
-              href="https://io.google/2022/program/d7b6d22e-59a4-4e6b-a49d-3116ee57dcc3/"
+              href="https://blog.google/threat-analysis-group/"
               target="_blank"
               rel="noopener noreferrer">
-              Counter-Abuse Technology team
+              Threat Analysis Group
             </a>
-            , within the Privacy, Safety and Security organization.
+            , within the User Protection and Privacy, Safety and Security
+            organizations. In May 2020, I graduated from Harvard College with a
+            Bachelor of Arts degree in Computer Science and Statistics, and a
+            secondary field of African American Studies.
           </p>
           <p>
             I'm an optimistic builder. I translate my ideas — and those from
