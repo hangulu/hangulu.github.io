@@ -18,7 +18,7 @@ export default function About({ mobile }) {
             2014 to finish my education. I am currently based in Brooklyn, NY.
           </p>
           <p>
-            I am a Software Engineer III at Google, in the{" "}
+            I am a Senior Software Engineer at Google, in the{" "}
             <a
               href="https://blog.google/threat-analysis-group/"
               target="_blank"
