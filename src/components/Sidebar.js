@@ -41,15 +41,6 @@ export default function Sidebar({ mobile }) {
               GitHub
             </a>
           </Container>
-          <br />
-          <Container textAlign="center" className="social">
-            <a
-              href="https://twitter.com/hakeemangulu"
-              target="_blank"
-              rel="noopener noreferrer">
-              Twitter
-            </a>
-          </Container>
         </Container>
       </div>
     </Fragment>
