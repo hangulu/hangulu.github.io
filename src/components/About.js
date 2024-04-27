@@ -4,6 +4,7 @@ import { Container, Header } from "semantic-ui-react";
 import "./About.css";
 
 export default function About({ mobile }) {
+  document.title = "Hakeem Angulu";
   const aboutClass = mobile ? "about-center-mobile" : "about-center";
   return (
     <Fragment>

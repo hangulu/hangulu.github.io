@@ -9,6 +9,7 @@ import popImgExample from "../images/popimg_example.gif";
 import "./Software.css";
 
 export default function Software() {
+  document.title = "Hakeem Angulu • Software";
   return (
     <Fragment>
       <Container text>

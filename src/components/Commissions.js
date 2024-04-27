@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Container, Header } from "semantic-ui-react";
 
 export default function Commissions({ mobile }) {
+  document.title = "Hakeem Angulu • Commissions";
   const aboutClass = mobile ? "about-center-mobile" : "about-center";
   return (
     <Fragment>

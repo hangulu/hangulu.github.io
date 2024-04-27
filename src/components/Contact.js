@@ -10,6 +10,7 @@ import {
 import "./Contact.css";
 
 export default function Contact({ mobile }) {
+  document.title = "Hakeem Angulu • Contact";
   const currentTime = () => {
     const today = new Date();
     const date =

@@ -8,6 +8,7 @@ import twice from "../images/twice.jpg";
 import "./Art.css";
 
 export default function Art() {
+  document.title = "Hakeem Angulu • Art";
   return (
     <Fragment>
       <Container text>
