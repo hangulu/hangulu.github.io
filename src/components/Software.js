@@ -13,7 +13,7 @@ export default function Software() {
     <Fragment>
       <Container text>
         <div className="project-center">
-          <Header as="h1">software projects</Header>
+          <Header as="h1">personal software projects</Header>
 
           <Header as="h3" id="oak">
             oak

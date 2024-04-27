@@ -35,15 +35,18 @@ export default function About({ mobile }) {
             others that I believe in and collaborate with — into virtual and
             physical objects people can use and relate to. My usual tools for
             this process are code and art (photography, cinematography, and
-            curation). To serve as a proper introduction, this website is also a
-            showcase of what I've built with those tools. I document here my own
-            artwork (mostly photography) and my own non-Google software
-            projects, many of which have the explicit aim to amplify voices,
-            facilitate justice and push limits.
+            curation).
           </p>
           <p>
-            If you'd like to get in touch with me, please use{" "}
-            <Link to="/contact">this page</Link>.
+            This website is also a showcase of what I've built with those tools.
+            I document here my own artwork (mostly photography) and my own
+            personal software projects, many of which have the explicit aim to
+            amplify voices, facilitate justice and push limits.
+          </p>
+          <p>
+            I offer <Link to="/commissions">commissions</Link> for software
+            projects. Otherwise, if you'd like to get in touch with me, please
+            use <Link to="/contact">this page</Link>.
           </p>
         </div>
       </Container>
