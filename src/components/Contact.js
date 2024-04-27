@@ -12,21 +12,17 @@ import "./Contact.css";
 export default function Contact({ mobile }) {
   document.title = "Hakeem Angulu • Contact";
   const currentTime = () => {
-    const today = new Date();
-    const date =
-      today.getFullYear() +
-      "-" +
-      (today.getMonth() + 1) +
-      "-" +
-      today.getDate();
-    const time = today.getHours() + ":" + today.getMinutes();
-    return date + " " + time;
+    const [date, time] = new Date()
+      .toLocaleString("en-US", { timeZone: "America/New_York" })
+      .split(", ");
+    return `${time} ET on ${date}`;
   };
 
   const defaultFormValues = {
     name: "",
     email: "",
     subject: "",
+    isCommissionInquiry: false,
     message: "",
     timestamp: currentTime(),
   };
@@ -43,18 +39,19 @@ export default function Contact({ mobile }) {
     });
   };
 
+  const handleCommissionCheck = (_event, data) => {
+    setFormValues((prevFormValues) => {
+      return {
+        ...prevFormValues,
+        isCommissionInquiry: data.checked,
+      };
+    });
+  };
+
   const handleSubmit = () => {
     setFormSuccess(true);
     // send email
-    fetch("https://wh.automate.io/webhook/5eeee4f924af350f5a21496a", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formValues),
-    });
-    // record in spreadsheet
-    fetch("https://wh.automate.io/webhook/5eeee6a624af350f5a214980", {
+    fetch("https://uhgyyqrcmdvyltvmvcvy.supabase.co/functions/v1/mailer", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -63,7 +60,7 @@ export default function Contact({ mobile }) {
     });
   };
 
-  const { name, email, subject, message } = formValues;
+  const { name, email, subject, isCommissionInquiry, message } = formValues;
 
   const emailRe = /\S+@\S+\.\S+/;
 
@@ -107,6 +104,12 @@ export default function Contact({ mobile }) {
               name="email"
               placeholder="email address"
               onChange={handleChange}
+            />
+            <Form.Checkbox
+              label="Commission inquiry?"
+              checked={isCommissionInquiry}
+              name="isCommissionInquiry"
+              onChange={handleCommissionCheck}
             />
             <Form.Input
               label="subject"
