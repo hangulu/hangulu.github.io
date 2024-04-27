@@ -50,6 +50,7 @@ export default function Contact({ mobile }) {
 
   const handleSubmit = () => {
     setFormSuccess(true);
+    console.log(JSON.stringify(formValues));
     // send email
     fetch("https://uhgyyqrcmdvyltvmvcvy.supabase.co/functions/v1/mailer", {
       method: "POST",
