@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a0648709.css",
-    "main.js": "/static/js/main.6edae929.js",
+    "main.js": "/static/js/main.4efcc8b7.js",
     "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.c12974ac.chunk.js",
     "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.ec433109.chunk.js",
     "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.ef38be7c.chunk.js",
@@ -29,7 +29,7 @@
     "static/media/pinwheel_logo.png": "/static/media/pinwheel_logo.5e7262e36d6c9d01c1ef.png",
     "index.html": "/index.html",
     "main.a0648709.css.map": "/static/css/main.a0648709.css.map",
-    "main.6edae929.js.map": "/static/js/main.6edae929.js.map",
+    "main.4efcc8b7.js.map": "/static/js/main.4efcc8b7.js.map",
     "reactPlayerYouTube.c12974ac.chunk.js.map": "/static/js/reactPlayerYouTube.c12974ac.chunk.js.map",
     "reactPlayerSoundCloud.ec433109.chunk.js.map": "/static/js/reactPlayerSoundCloud.ec433109.chunk.js.map",
     "reactPlayerVimeo.ef38be7c.chunk.js.map": "/static/js/reactPlayerVimeo.ef38be7c.chunk.js.map",
@@ -47,6 +47,6 @@
   },
   "entrypoints": [
     "static/css/main.a0648709.css",
-    "static/js/main.6edae929.js"
+    "static/js/main.4efcc8b7.js"
   ]
 }
