@@ -39,15 +39,6 @@ export default function Contact({ mobile }) {
     });
   };
 
-  const handleCommissionCheck = (_event, data) => {
-    setFormValues((prevFormValues) => {
-      return {
-        ...prevFormValues,
-        isCommissionInquiry: data.checked,
-      };
-    });
-  };
-
   const handleSubmit = () => {
     setFormSuccess(true);
     // send email
@@ -60,7 +51,7 @@ export default function Contact({ mobile }) {
     });
   };
 
-  const { name, email, subject, isCommissionInquiry, message } = formValues;
+  const { name, email, subject, message } = formValues;
 
   const emailRe = /\S+@\S+\.\S+/;
 
@@ -104,12 +95,6 @@ export default function Contact({ mobile }) {
               name="email"
               placeholder="email address"
               onChange={handleChange}
-            />
-            <Form.Checkbox
-              label="Commission inquiry?"
-              checked={isCommissionInquiry}
-              name="isCommissionInquiry"
-              onChange={handleCommissionCheck}
             />
             <Form.Input
               label="subject"

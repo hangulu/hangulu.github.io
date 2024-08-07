@@ -20,12 +20,6 @@ export default function NavigationBar() {
               />
               <Menu.Item
                 as={Link}
-                content="commissions"
-                to="/commissions"
-                active={location.pathname === "/commissions"}
-              />
-              <Menu.Item
-                as={Link}
                 content="software"
                 to="/software"
                 active={location.pathname === "/software"}

@@ -19,7 +19,28 @@ export default function About({ mobile }) {
             2014 to finish my education. I am currently based in Brooklyn, NY.
           </p>
           <p>
-            I am a Senior Software Engineer at Google, in the{" "}
+            I am a Member of Technical Staff at{" "}
+            <a
+              href="https://www.anthropic.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Anthropic
+            </a>
+            . I work on the Product Platform team, helping build products and
+            infrastructure to support responsible AI research and provide safe,
+            helpful, and reliable tools to our users.
+          </p>
+
+          <p>Previously, I was a Senior Software Engineer at{" "}
+            <a
+              href="https://about.google/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google
+            </a>
+            , in the{" "}
             <a
               href="https://blog.google/threat-analysis-group/"
               target="_blank"
@@ -45,9 +66,8 @@ export default function About({ mobile }) {
             amplify voices, facilitate justice and push limits.
           </p>
           <p>
-            I offer <Link to="/commissions">commissions</Link> for software
-            projects. Otherwise, if you'd like to get in touch with me, please
-            use <Link to="/contact">this page</Link>.
+            If you'd like to get in touch with me, please use{" "}
+            <Link to="/contact">this page</Link>.
           </p>
         </div>
       </Container>

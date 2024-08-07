@@ -3,7 +3,6 @@ import { Redirect, Route, Switch } from "react-router-dom";
 import { Grid } from "semantic-ui-react";
 import About from "./About.js";
 import Art from "./Art.js";
-import Commissions from "./Commissions.js";
 import Contact from "./Contact.js";
 import NavigationBar from "./NavigationBar.js";
 import Sidebar from "./Sidebar.js";
@@ -16,9 +15,6 @@ function Pages({ mobile }) {
       <Switch>
         <Route exact path="/">
           <About mobile={mobile} />
-        </Route>
-        <Route exact path="/commissions">
-          <Commissions mobile={mobile} />
         </Route>
         <Route exact path="/software">
           <Software />

@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
 import { Container, Header, Image } from "semantic-ui-react";
 import headshot from "../images/headshot.png";
 import "./Sidebar.css";
@@ -41,10 +40,6 @@ export default function Sidebar({ mobile }) {
               rel="noopener noreferrer">
               GitHub
             </a>
-          </Container>
-          <br />
-          <Container textAlign="center" className="social">
-            <Link to="/commissions">Commissions</Link>
           </Container>
         </Container>
       </div>
