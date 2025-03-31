@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import { Container, Divider, Header, Image } from "semantic-ui-react";
-import actionableExample from "../images/actionable_example.png";
 import dvmExample from "../images/dvm_example.png";
 import expandHarvardExample from "../images/expandharvard_example.png";
 import oakLogo from "../images/oak_logo.png";
@@ -157,24 +156,6 @@ export default function Software() {
             images a user interacted with at given points in time.
           </p>
           <Image src={popImgExample} size="big" centered />
-
-          <Divider horizontal>-</Divider>
-
-          <Header as="h3">actionable</Header>
-          <p>
-            <a
-              href="https://github.com/hangulu/actionable"
-              target="_blank"
-              rel="noopener noreferrer">
-              https://github.com/hangulu/actionable
-            </a>
-          </p>
-          <p>
-            actionable was a web application that allowed you to find the
-            nearest protest to you, in a specified time frame, that dealt with
-            an issue that you care about.
-          </p>
-          <Image src={actionableExample} size="big" centered />
 
           <Divider horizontal>-</Divider>
 
